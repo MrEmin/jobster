@@ -1,4 +1,4 @@
-import Landing from './pages/Landing'
+import { Landing, Dashboard, Register, Error } from './pages'
 
 function App() {
   return (
