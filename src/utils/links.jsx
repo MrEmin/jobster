@@ -8,25 +8,25 @@ const links = [
     id: 1,
     text: 'stats',
     path: '/',
-    icoon: <IoBarChartSharp />,
+    icon: <IoBarChartSharp />,
   },
   {
     id: 2,
     text: 'all jobs',
     path: 'all-jobs',
-    icoon: <MdQueryStats />,
+    icon: <MdQueryStats />,
   },
   {
     id: 3,
     text: 'add job',
     path: 'add-job',
-    icoon: <FaWpforms />,
+    icon: <FaWpforms />,
   },
   {
     id: 4,
     text: 'profile',
     path: 'profile',
-    icoon: <ImProfile />,
+    icon: <ImProfile />,
   },
 ]
 
