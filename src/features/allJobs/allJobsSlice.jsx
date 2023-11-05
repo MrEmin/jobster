@@ -40,7 +40,7 @@ const allJobsSlice = createSlice({
       state[name] = value
     },
     clearFilters: (state) => {
-      return { ...state, ...initialFiltersState }
+      return { ...state, ...initialFiltersState, page: 1 }
     },
     changePage: (state, { payload }) => {
       state.page = payload
